@@ -1,0 +1,19 @@
+.navbar {
+    height: 30px;
+    width: 100%;
+    background-color: lightblue;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 10px;
+}
+
+.menuItems {
+    display: flex;
+    justify-content: space-between;
+}
+
+.menuItem {
+    padding: 0 10px;
+    line-height: 5px;
+}

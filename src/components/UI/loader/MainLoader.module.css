@@ -1,0 +1,21 @@
+.mainLoader {
+    width: 50px;
+    height: 50px;
+    border: 6px dotted lightblue;
+    border-radius: 50%;
+    animation: loaderRotation 1s infinite linear;
+}
+
+@keyframes loaderRotation {
+    0% {
+        transform: rotate(0deg) scale(1);
+    }
+
+    50% {
+        transform: rotate(180deg) scale(0.5);
+    }
+
+    100% {
+        transform: rotate(360deg) scale(1);
+    }
+}

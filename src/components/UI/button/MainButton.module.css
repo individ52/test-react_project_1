@@ -1,0 +1,7 @@
+.mainButton {
+    padding: 5px;
+    background-color: lightblue;
+    border: 2px solid gray;
+    background-color: lightgray;
+    cursor: pointer;
+}
