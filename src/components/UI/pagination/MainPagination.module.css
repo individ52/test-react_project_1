@@ -1,0 +1,16 @@
+.pagination {
+    margin: 10px 0;
+}
+
+.pagination-item {
+    display: inline-block;
+    padding: 5px 10px;
+    border: 2px solid lightblue;
+    margin: 0 5px;
+
+}
+
+.active {
+    border-color: blanchedalmond;
+    font-weight: bold;
+}
